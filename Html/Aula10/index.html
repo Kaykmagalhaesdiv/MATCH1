@@ -8,6 +8,86 @@
 </head>
 <body>
     <h1>Cadastrar usuario</h1>
-    <input type="text">
+    <form action="https://www.w3schools.com/action_page.php" method="post" target="_blank">
+        <div>
+            <label for="name">Seu nome de usuario:</label>
+            <input type="text" placeholder="Seu nome" id="name" name="nomeCompleto">
+        </div>
+        
+        <br><br>
+        <div> 
+        <label for="email">Digite seu e-mail:</label>
+        <input type="email" placeholder="Seu e-mail" id="email" name="email">
+        </div>
+
+        <br><br>
+        <div>
+            <label for="password">Sua senha:</label>
+            <input type="password" placeholder="Sua senha" id="password" name="senha">
+        </div>
+        
+        <br><br>
+        <div>
+            <label for="date">Digite sua data de nascimento:</label>
+            <input type="date" id="date" name="dataNascimento">
+        </div>
+        <br><br>
+        <div>
+            <label for="cpf">Digite seu CPF:</label>
+            <input type="text" placeholder="CPF" maxlength="14" id="cpf" name="cpf">
+        </div>
+        <br><br>
+        <div>
+            <label for="idade">Digite sua idade:</label>
+            <input type="number" placeholder="Digite sua idade" min="0" max="18" id="idade" name="idade">
+        </div>
+        
+        <br><br>
+        <div>
+            <label for="file">Selecione um arquivo:</label>
+            <input type="file" multiple id="file" name="arquivo">
+        </div>
+        
+        <br><br>
+
+        <fieldset>
+        <legend>Quais os seus pets?</legend>
+        <input type="checkbox" value="sim" id="dog" name="cachorro">
+        <label for="dog">Cachorro</label>
+        <input type="checkbox" value="sim" id="cat" name="gato">
+        <label for="cat">Gato</label>
+        <input type="checkbox" value="sim" id="mouse" name="rato">
+        <label for="mouse">Rato</label>
+        <input type="checkbox" value="sim" id="jac" name="jacare">
+        <label for="jac">Jacaré</label>
+        </fieldset>
+        <br><br>
+
+        <fieldset>
+        <legend>Você é maior de idade?</legend>
+        <input type="radio" name="maior" value="sim" id="sim">
+        <label for="sim">Sim</label>
+        <br>
+        <input type="radio" name="maior" value="nao" id="nao">
+        <label for="nao">Não</label>
+        <br><br>
+        </fieldset>
+
+        <label for="select">Selecione seus bens:</label>
+        <select id="select" name="bens">
+            <option value="carro">Carro</option>
+            <option value="moto">Moto</option>
+        </select>
+        <br><br>
+        
+        <div>
+            <label for="msg">Deixe sua mensagem para mim:</label>
+            <br>
+            <textarea placeholder="Sua mensagem" id="msg" name="msg"></textarea>
+        </div>
+        <br><br>
+
+        <input type="submit" value="Salvar Usuário">
+    </form>
 </body>
 </html>

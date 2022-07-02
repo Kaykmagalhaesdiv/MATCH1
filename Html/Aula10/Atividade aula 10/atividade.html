@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site para se alistar">
+    <title>Alista-se</title>
+    <style>
+        body{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        }
+    </style>
+</head>
+<body>
+    <h1>Alista-se</h1>
+    <form action="https://bemach1.com.br/html-aula-forms/cadastroRecruta.php" method="post" target="_blank">
+        <div>
+            <label for="email">Seu e-mail</label><br>
+            <input type="email" placeholder="seuemail@mail.com" name="email" id="email">
+        </div><br>
+
+        <div>
+            <label for="password">Senha</label><br>
+            <input type="password" placeholder="Crie sua senha" name="senha" id="password">
+        </div><br>
+
+        <div>
+            <label for="name">Nome completo</label><br>
+            <input type="text" placeholder="Informe o seu nome" name="nomeCompleto" id="name">
+        </div><br>
+
+        <div>
+            <label for="cpf">CPF (Apenas números)</label><br>
+            <input type="text" placeholder="00000000000" name="cpf" id="cpf" maxlength="14" style="width: 150px;">
+        </div><br>
+
+        <div>
+            <label for="rg">RG (Apenas números)</label><br>
+            <input type="number" placeholder="Digite seu RG" name="rg" id="rg">
+        </div><br>
+
+        <div>
+            <label for="nasc">Sua data de Nascimento</label><br>
+            <input type="date" placeholder="Digite seu RG" name="nascimento" id="nasc">
+        </div><br>
+
+        <div>
+            <fieldset style="width: 200px;">
+                <legend>Necessidades especiais</legend>
+                <input type="radio" name="necessidadesEspeciais" value="sim" id="sim">
+                <label for="sim">Sim</label>
+                <br><br>
+                <input type="radio" name="necessidadesEspeciais" value="nao" id="nao">
+                <label for="nao">Não</label>
+            </fieldset>
+        </div><br>
+
+        <div>
+            <label for="estado">Estado de Residência</label><br>
+            <select name="estado" id="estado" style="width: 200px;">
+                <option value="" disabled selected>Selecione o seu estado..</option>
+                <option value="bahia">Bahia</option>
+                <option value="saoPaulo">São paulo</option>
+                <option value="minasGerais">Minas gerais</option>
+                <option value="segipe">Segipe</option>
+            </select>
+        </div><br>
+
+        <div>
+            <fieldset style="width:400px ;">
+                <legend>Especialização desejada</legend>
+                <input type="checkbox" name="especializacao1" id="es1" value="back-end">
+                <label for="es1">Mecânica de aeronaves (Back-end)</label><br><br>
+
+                <input type="checkbox" name="especializacao2" id="es2" value="front-end">
+                <label for="es2">Montagem de aeronaves (Front-end)</label><br><br>
+
+                <input type="checkbox" name="especializacao3" id="es3" value="fullStack">
+                <label for="es3">Engenheiro de Aeronaves (Full-Stack)</label><br><br>
+                
+                <input type="checkbox" name="especializacao4" id="es4" value="teaser">
+                <label for="es4">Piloto (Teaser)</label><br><br>
+
+                <input type="checkbox" name="especializacao5" id="es5" value="scrumMaster">
+                <label for="es3">Operador de trafego aéreo (Scrum Master)</label>
+            </fieldset>
+        </div><br>
+        <input type="submit" value="Salvar usuário!">
+    </form>
+</body>
+</html>

@@ -1,0 +1,49 @@
+/* Toda div que estiver dentro de outra div em qualquer hierarquia
+div div{
+    background-color: cyan;
+}
+
+article div p{
+    background-color: blueviolet;
+}
+*/
+
+
+/* Toda vez que o P for filho direto de uma div, vai receber a cor.
+div > p{
+     background-color: blueviolet;
+} */
+
+/* O primeiro elemento apos o h1 vai receber a cor, no caso o primeiro elemento ira ser o P
+h1 + p {
+    background-color: blueviolet;
+} */
+
+/*Todos os P depois de um h1, indepedente se algo estiver no caminho do P, vai receber a cor.
+h1 ~ p{
+    background-color: blueviolet;
+} */
+
+/*
+#id_paragrafo{
+    background-color: green;
+}
+
+.paragrafo{
+    background-color: red;
+} */                                                                                                        
+div div p{
+    background-color: brown;
+}
+
+p.seg_p{
+    background-color: cyan; 
+}
+
+p {
+    background-color: blueviolet;
+}
+
+
+
+

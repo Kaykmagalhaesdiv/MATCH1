@@ -1,0 +1,36 @@
+/*PRIMEIRA QUESTÃO*/
+ul li:nth-child(even){
+    color: red;
+}
+/*FIM DA PRIMEIRA QUESTÃO */
+
+
+/*SEGUNDA QUESTÃO */
+ol li::marker{
+    color: blue;
+}
+
+ol li{
+    color: red;
+}
+/*FIM DA SEGUNDA QUESTÃO */
+
+
+/*TERCEIRA QUESTÃO*/
+p:hover{
+    color: red;
+    cursor: pointer;
+}
+/*FIM DA TERCEIRA QUESTÃO */
+
+
+/*QUARTA QUESTÃO*/
+[class$="Sus"]{
+    background-color: #000;
+    color: #fff;
+    width: 50px;
+    height: 125px;
+    margin-left: -26px;
+    margin-right: -26px;
+}
+/*FIM DA QUARTA QUESTÃO */

@@ -1,0 +1,85 @@
+h1{
+    font-size: 42px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+/*Não mexer acima
+
+article *{
+    background-color: yellow;
+}
+
+p{
+    background-color: blue;
+} 
+
+h1, h2, h3, small,.parag{
+    background-color: green;
+    border: solid black;
+} 
+
+a:active{
+    background-color: red;
+}
+
+a:hover{
+    background-color: blueviolet;
+}
+
+a:visited{
+    background-color: greenyellow;
+    color: red;
+}
+
+h1:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+
+input:focus-visible{
+    outline:blueviolet solid 1px;
+}
+
+li::marker{
+    color: blueviolet;
+}
+
+.autor::after{
+    content: "→";
+    padding: 32px;
+}
+
+.autor::before{
+    content: "→";
+}
+
+[title^= "Meu"] {
+    background-color: red;
+}
+
+[href*="pg"]{
+    background-color: blueviolet;
+} */
+
+li:nth-of-type(2n){
+    background-color: blueviolet;
+}
+
+
+
+
+
+
+
+
+
+
+
+

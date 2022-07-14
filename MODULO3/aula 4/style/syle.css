@@ -1,0 +1,15 @@
+div {
+    height: 300px;
+    width: 300px;
+    background-color: blueviolet;
+    padding: 16px;
+    border: solid red 3px;
+    border-radius: 10px;
+    margin: 24px;
+}
+
+p{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    
+}

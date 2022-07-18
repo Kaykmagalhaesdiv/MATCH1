@@ -1,0 +1,45 @@
+/*PRIMEIRA QUESTÃO */
+.primeiraAtividade{
+    margin: 10px;
+    padding:20px 10px;
+    border: 5px solid black;
+    
+} /*fIM DA PRIMEIRA QUESTÃO */
+
+
+/*SEGUNDA QUESTÃO */
+.principal div{
+    border: 2px solid red;
+    padding: 5px 10px;
+    margin: 20px 0;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.principal{
+    border: 5px solid blue;
+}
+/*FIM DA SEGUNDA QUESTÃO  */
+
+
+/*TERCEIRA QUESTÃO*/
+.profile{
+    border: 2px dotted yellow;
+    border-radius: 50%px;
+    border-width: 100px;
+    
+}
+
+.profile > div{
+    border: 2px solid blue;
+    border-radius: 50%;
+    border-width: 50px;
+    
+}
+
+.profile > div > div{
+    border: 2px solid green;
+    border-radius: 50%px ;
+    border-width: 10px;
+   
+}
+/*FIM DA TERCEIRA QUESTÃO  */

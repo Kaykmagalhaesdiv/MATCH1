@@ -1,0 +1,72 @@
+
+html{
+    scroll-behavior: smooth;
+}
+.pai{
+    width: 400px;
+    height: 400px;
+    border: solid black 4px;
+    margin: auto;
+    position: relative;
+}
+
+.filha_a, .filha_b{
+    width: 100px;
+    height: 100px;
+    float: left;
+    
+}
+p{
+    float: left;
+}
+.filha_b{
+    background-color: brown;
+    
+}
+
+.filha_a{
+    background-color: blueviolet;
+    /*display: none; */
+    visibility: hidden;
+    
+   /* right: 0;
+    bottom: 0;
+    top: 0;
+    position: absolute;
+    width: 100px;
+}
+
+
+
+.filha_b{
+    background-color: brown;
+    position: absolute;
+    height: 100px;
+    left: 0;
+    right: 0; 
+    background-color: brown; */
+} 
+
+li{
+    display: inline;
+    padding: 16px;
+}
+
+nav{
+    background-color: bisque;
+    padding: 12px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.subir{
+    width: 40px;
+    height: 40px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    position: fixed;
+    right: 32px;
+    bottom: 32px;
+}

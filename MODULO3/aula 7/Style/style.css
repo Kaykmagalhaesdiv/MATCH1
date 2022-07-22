@@ -1,0 +1,56 @@
+body{
+    height: 100vh;
+    margin: 0;
+}
+
+.back{
+    background-color: aquamarine;
+    width: 50%;
+    height: 50%;
+}
+
+.interno{
+    width: 50%;
+    height: 50%;
+    background-color: red;
+}
+
+.grid_f, .grid_r{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 16px;
+}
+
+.grid_f div, .grid_r div{
+    background-color: aquamarine;
+    height: 48px;
+}
+
+.grid_f{
+    gap: 16px;
+}
+
+.grid_r{
+    gap: 4vw;
+}
+
+html,body{
+    font-size: 62.5%;
+}
+
+.texto_e{
+    font-size: 32pt;
+   /* margin: 0.5em; */
+}
+
+.texto_i p{
+    font-size: 3rem;
+  /*  margin: 2em; */
+    
+}
+
+/* p{
+ margin-block-start: 0;
+    margin-block-end: 0; 
+
+} /

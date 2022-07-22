@@ -1,0 +1,38 @@
+.image{
+    overflow-y: scroll;
+    width: 300px;
+    height: 300px;
+    border: solid 3px black;
+    background-color: rgb(84, 84, 31);
+    background-image: url(https://bemach1.com.br/wp-content/uploads/2022/02/Logo-Mach-02.svg), url("/assets/img/04.jpeg");
+    background-size: 100px auto, 200px auto;
+    background-repeat: no-repeat;
+    background-position: top, bottom;
+    background-attachment: local, local;
+}
+
+html{
+    background-color: rgb(226, 188, 238);
+}
+
+.gradient{
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    background: linear-gradient(rgb(1, 1, 58),blue,blueviolet );
+    position: relative;
+    overflow: hidden;
+}
+
+.gradient div{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    right: 48px;
+    top: -15px;
+    border-radius: 50%;
+    
+
+    box-shadow: 0 0 18px 4px white, 0 0 3px 3px red;
+}

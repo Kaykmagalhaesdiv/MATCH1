@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: hidden;
+}
+
+.logoRepetindoLateral{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://bemach1.com.br/wp-content/uploads/2022/02/Logo-Mach-02.svg);
+    background-repeat: repeat-y;
+    background-color: rgb(18, 13, 63);
+    background-size: 50px auto;
+}

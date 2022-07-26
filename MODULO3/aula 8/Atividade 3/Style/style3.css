@@ -1,0 +1,26 @@
+:root{
+    --height:calc(100vh - 200px)
+}
+    
+body{
+    margin:0;
+    padding: 0;
+}
+    
+main{
+    background-color: yellow;
+    width: 100%;
+    height: var(--height);
+}
+    
+header {
+    background-color: red;
+    width: 100%;
+    height: 100px;
+}
+    
+footer{
+    background-color: blue;
+    width: 100%;
+    height: 100px;
+}

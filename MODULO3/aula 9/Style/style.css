@@ -1,0 +1,18 @@
+.table{
+
+    display: table;
+    }
+    
+    
+    .row{
+    display: table-row;
+    }
+    
+    .cell{
+    display: table-cell;
+    }
+    
+    .row,
+    .cell {
+    padding: 10px;
+    }

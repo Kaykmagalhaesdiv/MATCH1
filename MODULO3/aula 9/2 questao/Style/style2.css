@@ -1,0 +1,31 @@
+.table{
+    display: table;
+    border: 1px solid gray;
+    padding: 1px;
+    }
+    
+    
+    .row{
+    display: table-row;
+    }
+    
+    
+    .row div{
+    display: table-cell;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    }
+    
+    .row:nth-child(1){
+    background-color: blue;
+    color: white;
+    }
+    
+    .row:nth-child(3){
+    background-color: rgb(204, 197, 197);
+    
+    }
+    
+    .row,div{
+    padding: 5px;
+    }

@@ -1,0 +1,24 @@
+.informacao{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin-top: 100px;
+    padding: 10px;
+    transition: width 0.9s 0.5s, border-radius 0.5s 0.5s;
+}
+
+.informacao div{
+    opacity: 0;
+    transition: opacity 0.5s 0.5s;
+}
+
+.informacao:hover div{
+    opacity: 1;
+    transition: opacity 0.5 1s;
+}
+
+.informacao:hover{
+    width: 300px;
+    border-radius: 20px;
+}

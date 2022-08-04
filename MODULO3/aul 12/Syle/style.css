@@ -1,0 +1,37 @@
+/* .txt_grande, h2{
+    display: inline;
+} */
+
+span{
+    background-color: yellow;
+}
+
+body{
+    column-count: 3; 
+    /* column-width: 200px; */
+    column-gap: 64px;
+    column-rule: 1px solid black;
+    
+}
+
+/* .txt_principal,.txt_p1{
+    column-span: all;
+} */
+
+@media print {
+
+ .txt_principal,.txt_p1{
+    column-span: all;
+} 
+
+    body{
+        column-count: 2;
+    }
+    /* body{
+        column-count: 2; 
+    }
+
+    span{
+        background-color: red;
+    } */
+}

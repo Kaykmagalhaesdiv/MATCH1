@@ -1,0 +1,137 @@
+@import url("reset.css");
+@import url("root.css");
+
+@font-face {
+    font-family: "Kayk";
+    src: url("/Assets/fonts/CutiveMono-Regular.ttf"); 
+}
+body{
+    display: grid;
+    grid-template-columns: 1fr 300px;
+}
+
+.navegacao{
+    background-color: blueviolet;
+    grid-column: span 2;
+    height: 64px;
+}
+
+.banner{
+    background-color:burlywood ;
+    grid-column: span 2;
+    height: calc(100vh - 64px);
+}
+
+.corpo{
+    background-color: darkcyan;
+    height: 800px;
+}
+
+.sidebar{
+    background-color: coral;
+    padding: 16px;
+}
+
+.rodape{
+    background-color: springgreen;
+    grid-column: span 2;
+    height: 300px;
+}
+
+input{
+    height: 32px;
+    padding: 0 8px;
+    border-radius: 4px;
+    border-width: 2px;
+    border-color: var(--border-color-input);
+    color: var(--text-color-input);
+}
+
+input::placeholder{
+    color: var(--placeholder-color-input);
+}
+
+input:focus-visible{
+    outline: 0;
+    border-color: var(--border-color-input-focus);
+}
+
+input:disabled{
+    border: none;
+    background-color: rgb(222, 222, 222);
+    cursor: not-allowed;
+}
+
+
+
+/* || button */
+
+.btn{
+    height: 32px;
+    border-radius: 4px;
+    border:none;
+    padding: 0 8px;
+}
+
+.btn_small{
+    height: 28px;
+}
+
+.btn_primary{
+    background-color: blueviolet;
+    color:#FFF;
+}
+
+.btn_danger{
+    background-color: crimson;
+    color: white;
+}
+
+.navegacao:hover{
+    background-color: green;
+}
+
+
+/* || BEM */
+
+/* || BLOCO */
+.c_card{
+    background-color: white;
+    border-radius: 4px;
+    padding: 16px;
+    margin-block: 12px;
+}
+
+/* || E Elemento */
+.c_card__title{
+    font-size: 28px;
+    margin: 8px 0;
+}
+
+.c_card__text{
+    margin: 8px 0;
+}
+
+.c_card__button{
+    height: 32px;
+    border-radius: 4px;
+    border:none;
+    padding: 0 8px;
+    background-color: blueviolet;
+    color: white;
+}
+
+/* || MODIFICADOR */
+.c_card__button--disabled{
+    height: 32px;
+    border-radius: 4px;
+    border:none;
+    padding: 0 8px;
+    background-color: #aaaaaa;
+    color: gray;
+    cursor: not-allowed;
+}
+
+code{
+    font-family: "Kayk";
+}

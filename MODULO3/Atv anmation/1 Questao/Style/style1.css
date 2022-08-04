@@ -1,0 +1,27 @@
+.main_button{
+    background-color: #0F0C33;
+    color: #FFF;
+    padding: 5px;
+}
+
+@keyframes animation {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    45%{
+        transform: rotate(10deg);
+    }
+    90%{
+        transform: rotate(-10deg);
+    }
+
+    100%{
+        transform: rotate(0deg);
+    }
+   
+}
+
+.main_button:hover{
+    animation: animation 0.5s;
+}

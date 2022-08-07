@@ -1,0 +1,9 @@
+body{
+    column-count: 3;
+    column-rule: 6px dotted cyan;
+}
+
+.title{
+    column-span: all;
+    background-color: beige;
+}

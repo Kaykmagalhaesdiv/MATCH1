@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url("reset.css");
 @import url("root.css");
 
@@ -135,3 +136,23 @@ input:disabled{
 code{
     font-family: "Kayk";
 }
+=======
+.table{
+
+    display: table;
+    }
+    
+    
+    .row{
+    display: table-row;
+    }
+    
+    .cell{
+    display: table-cell;
+    }
+    
+    .row,
+    .cell {
+    padding: 10px;
+    }
+>>>>>>> 2bb001a810fb51602a3fe3a6ff56896f4938491f

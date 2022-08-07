@@ -1,6 +1,6 @@
 body{
     column-count: 3;
-    column-rule: 6px dotted cyan;
+    column-rule: 5px dotted cyan;
 }
 
 .title{

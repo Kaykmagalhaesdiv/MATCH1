@@ -9,13 +9,9 @@
     /* justify-content: space-evenly; */
      align-items: center;
     /* align-content: space-between; */
-    box
 }
 
-.linha{
-    width: max-content;
-    border: 2px solid black;
-}
+
 
 .flex_item{
     background-color: yellow;  

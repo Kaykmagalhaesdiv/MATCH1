@@ -1,0 +1,40 @@
+.panel{
+    width: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 5px;
+}
+
+.elemento{
+    width: 50px;
+    height: 50px;
+    transition: 0.5s;
+}
+
+.cor-1{
+    background-color: black;
+}
+
+
+.elemento:hover{
+    transform: scale(1.5);
+    z-index: 5;
+}
+
+.cor-2{
+    background-color: blue;
+}
+
+.cor-3{
+    background-color: green;
+}
+
+.cor-4{
+    background-color: red;
+}
+
+.cor-5{
+    background-color: yellow;
+}

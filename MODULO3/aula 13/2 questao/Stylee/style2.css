@@ -1,0 +1,30 @@
+.panel{
+    width: 550px;
+    height: 100px;
+    display: flex;
+    border: 1px solid black;
+}
+
+.elemento{
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+    align-self:flex-start;
+}
+
+
+.alternate{
+    background-color: blue;
+    align-self: flex-end;
+}
+
+.elemento:first-child{
+    background-color: red;
+}
+
+.elemento:last-child{
+    background-color: red;
+}
+
+
+

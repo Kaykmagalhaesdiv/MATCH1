@@ -1,0 +1,30 @@
+div{
+    margin: 0 !important;
+}
+nav{
+    background-color: cyan;
+    height: 50px;
+}
+
+.main{
+    background-color: blueviolet;
+    height: auto;
+    align-items: center;
+    gap: 60px;
+    padding: 10px;
+}
+
+.aside{
+    background-color: red;
+    gap: 30px;
+}
+
+footer{
+    background-color: green;
+    height: 50px;
+}
+
+.card1{
+    height: 150px;
+    background-color: white;
+}

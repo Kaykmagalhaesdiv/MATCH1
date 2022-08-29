@@ -1,0 +1,137 @@
+.feed{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0;
+    width: 50.2rem;
+} 
+
+.story_container{
+    display: flex;
+    gap: 0.8rem;
+    margin-bottom: 2.6rem;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.story_card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+.story_container::-webkit-scrollbar{
+    background: var(--primary);
+    border-radius: 10px;
+    height: 10px;
+}
+
+.story_container::-webkit-scrollbar-thumb{
+    background-color: var(--paragraph);
+    border-radius: 10px;
+}
+
+.story_card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 11rem;
+    height: 15.2rem;
+    border-radius: 6px;
+    transition: 0.5s;
+}
+
+.story_card_exclusive {
+    border: dashed var(--paragraph) 1px;
+    min-width: 11rem;
+      
+}
+
+.story_card_add{
+    width: 2rem;
+}
+
+.post_container{
+    display: flex;
+}
+
+.post_box {
+    width: 100%;
+    height: 18.1rem;
+    border: var(--primary) ;
+    border: 1px solid var(--primary);
+    border-radius: 4px;
+    background-color:#FFF;
+    margin-bottom: 2.4rem;
+}
+
+.post_container_img {
+    margin: 1.2rem 0 auto 1.2rem;
+}
+
+textarea {
+    width: 100%; 
+    height: 9.6rem;
+    
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #C7C7C7;
+    resize: none;
+}
+form{
+    width: 100%;
+    margin: 1.2rem;
+}
+
+.input_button {
+    width: auto;
+    height: auto;
+    padding: 0.4rem 0.8rem;
+    
+    border-radius: 4px;
+    border: none;
+    background-color: var(--paragraph);
+    color: var(--grey);
+    box-sizing: border-box;
+}
+
+.input_button_photo {
+    margin: 0 .8rem 0 .8rem;
+}
+
+.input_button_event{
+    margin: 0 0 0 .8rem;
+}
+
+.feed form span{
+    color: var(--paragraph);
+    align-self:flex-start ;
+}
+
+.post_inputs{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 1.2rem;
+}
+
+.post_inputs_itens{
+    display: flex;
+    align-content: flex-start;
+}
+
+.input_button_video{
+    align-self: center;
+}
+
+.input_button_submit{
+    width: 10.3rem;
+    height: 4.7rem;
+    margin-left: auto;
+    background-color: #474747;
+    color: #FFF;
+    border: none;
+    border-radius: 4px;
+
+}

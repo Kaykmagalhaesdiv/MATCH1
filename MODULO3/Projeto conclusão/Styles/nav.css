@@ -43,13 +43,17 @@ nav{
     cursor: pointer;
     transition: .5s;
 }
+.caixa_icone_buscar{
+    margin-right: 9.2rem;
+}
+
+.caixa_icone_buscar:hover{
+    filter: brightness(0.8);
+}
 
 .box:hover {
     transform: scale(0.95);
-}
-
-.caixa_icone_buscar{
-    margin-right: 9.2rem;
+    filter: brightness(0.7);
 }
 
 .painel{
@@ -79,4 +83,18 @@ nav{
 .content{
     display: flex;
     width: 100vw;
+}
+
+.except{
+    position: relative;
+}
+
+.except .notification{
+    position: absolute;
+    background-color: #E90C0C;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    top: 3px;
+    right: 3px;
 }

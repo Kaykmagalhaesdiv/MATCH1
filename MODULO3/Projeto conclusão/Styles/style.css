@@ -1,5 +1,6 @@
-@import url("grid.css");
-@import url("reset.css");
+@import url('var.css');
+@import url('grid.css');
+@import url('reset.css');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto&display=swap');
 @import url('aside.css');
 @import url('nav.css');
@@ -8,22 +9,13 @@
 @import url('publication.css');
 @import url('media.css');
 
-:root {
-    font-size: 62.5%; /* 62.5% == 10px */
-    --white: #ffffff;
-    --primary:#E0E0E0;
-    --paragraph:#949494;
-    --grey:#F9F9F9; 
-    --primary-black:#2e2e2e;
-    --icon-box-height: 3.8rem;
-    --icon-box-width: 3.8rem;
-    --body-color: #f5f5f5;
-    --radius-size: 4px;
-    --input-text-border-color: #C7C7C7;
-    --box-home-a-color: #474747;
-}
-
 /* --------NAV ------ */
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: var(--body-color);
+}
 
 aside{
     height: auto;
@@ -32,7 +24,6 @@ aside{
     flex-direction: column;
     width: 30rem;
 }
-
 
 main{
     display: flex;
@@ -45,9 +36,6 @@ article{
 }
 
 
-body{
-    background-color: var(--body-color);
-}
 
 h1,h2{
     font-family: 'Poppins', sans-serif;
@@ -61,7 +49,6 @@ p{
 a{
     text-decoration: none;
 }
-
 
 
 input{
@@ -157,15 +144,13 @@ button img{
     
     .feed{
         justify-content: center;
-        padding: 0;
-        margin: 0;
         width: 52.8rem;
+        margin-left: 16px;
     } 
 
     nav{
         box-sizing: border-box;
-        padding: 0 1.6rem 0 1.6rem;
-        box-sizing: border-box;
+        padding: 0 3.4rem 0 3.4rem;
     }
 
     nav .content{

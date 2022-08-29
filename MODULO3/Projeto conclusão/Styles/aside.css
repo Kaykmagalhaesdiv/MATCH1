@@ -42,6 +42,11 @@
     border-radius: 4px;
     background-color: var(--primary);
     cursor: pointer;
+    transition: .5s;
+}
+
+.friend_add_icon:hover {
+    transform: scale(0.95);
 }
 
 .friend_add_icon img{

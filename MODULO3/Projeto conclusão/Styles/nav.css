@@ -41,6 +41,11 @@ nav{
     box-sizing: border-box;
     display: flex;
     cursor: pointer;
+    transition: .5s;
+}
+
+.box:hover {
+    transform: scale(0.95);
 }
 
 .caixa_icone_buscar{

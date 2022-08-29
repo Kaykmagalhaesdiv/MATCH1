@@ -49,8 +49,10 @@
 }
 
 .publication_share_container{
-    
     display: flex;
+    padding-bottom: 1.2rem;
+    border-bottom: 1px solid var(--primary);
+    margin-bottom: 1.2rem;
 }
 
 .publication_share .input_button:nth-child(1){
@@ -82,4 +84,21 @@
 .publication_text img{
     margin-top: 1.2rem;
     width: 100%;
+}
+
+.publication_comment {
+    display: flex;
+}
+
+.publication_comment img {
+    margin-right: 1.2rem;
+}
+
+.publication_input {
+    border: 1px solid var(--input-text-border-color);
+    width: 41.8rem;
+}
+
+::placeholder {
+    color: var(--input-text-border-color);
 }

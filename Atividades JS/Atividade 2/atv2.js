@@ -13,9 +13,8 @@
 
 //LETRA C 
 {
-    
-}
-
-let decremento = 1;
+    let decremento = 1;
     decremento ++;
     console.log(decremento+1);
+}
+

@@ -11,6 +11,4 @@ console.log(soma)
    segundoValor = prompt("Digite o segundo numero: ")
    total = parseInt(primeiroValor) + parseInt(segundoValor);
    console.log(total)
-
-
  }

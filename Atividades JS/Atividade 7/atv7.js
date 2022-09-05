@@ -1,22 +1,10 @@
-/*for(let contador=0; contador<recebeNumero; contador++){
-         if(contador%2!=0){
-            quantidadeDeImpares++;
-            //console.log('Sequencia',contador)
-}
-
-let frutasTropicais = prompt('Digite uma lista de frutas separadas por |');
-    frutasTropicais = frutasTropicais.split('|');
-    for (const element of frutasTropicais) {
-          console.log(element);
-    }
-*/
-
- let receiveUser= prompt('Digite os nomes dos pilotos separados por vírgula EX: (piloto1,piloto2 ...) de acordo com a ordem de chegada.')
+let receiveUser= prompt('Digite os nomes dos pilotos separados por vírgula EX: (piloto1,piloto2 ...) de acordo com a ordem de chegada.')
  receiveUser = receiveUser.split(',')
-
- for(const element of receiveUser){
-   
+ for(let counter = 1; counter < receiveUser.length; counter++){
+    if(counter>3){
+        console.log(` ${counter} - ${receiveUser[counter]}`)
+    } else{
+        console.log(`Pódio - ${counter} - ${receiveUser[counter]}`)
+    }
  }
-//  for(let count = 1; count < receiveUser; count++){
-//     console.log(`${count}, ${aa}`);
-//  }
+ 

@@ -7,4 +7,10 @@
     } else{
         alert(`Usuário digitou ${receiveUser}, "${list[receiveUser]}"`);
     }
+
+    let list_2 = prompt('Você Deseja adicionar algum outro ingrediente a lista? (S/N)').toUpperCase()
+    if(list_2 == 'S'){
+        let list_receive = prompt('Qual item gostaria de adionar?:');
+        list.push(list_receive); 
+    } else;
 }

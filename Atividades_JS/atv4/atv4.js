@@ -13,11 +13,6 @@ button.onclick = () => {
     let validaNome = isNaN(userName_1 || userName_2 || userName_3) ? true : false;
     let nomes = validaNome;
 
-    let mensage  = (mensagem) => {
-        feedbackmensage.removeAttribute('hidden');
-        feedbackmensage = mensagem;
-    }
-
     let atribuir = () =>{
         if(nomes){
             received_1.innerHTML += `<span>${userName_1}</span>`

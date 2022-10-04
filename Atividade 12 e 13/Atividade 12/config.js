@@ -13,6 +13,20 @@ const listaUsuarios = [
         sexo:"Feminino",
         idade:19,
         email:"fthaisDetal@termail.com"
+    },
+    {
+        id:3,
+        nome:"Mariana Ferreira",
+        sexo:"Feminino",
+        idade:25,
+        email:"marianaferreira@termail.com"
+    },
+    {
+        id:4,
+        nome:"Pedro Ivo Silva",
+        sexo:"Feminino",
+        idade:28,
+        email:"manuelabc@termail.com"
     }
 ];
 

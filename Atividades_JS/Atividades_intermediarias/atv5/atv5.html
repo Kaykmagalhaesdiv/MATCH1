@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 3</title>
+    <style>
+        form{
+            border-radius: 5px;
+            width: 300px;
+            padding: 10px;
+            background-color: rgb(174, 199, 219);
+        }
+
+        form h1{
+            text-align: center;
+        }
+
+        form input{
+            width: 250px;
+            height: 20px;
+            border-radius: 5px;
+            border: 1px solid blueviolet;
+        }
+
+        form fieldset{
+            border:1px solid blueviolet;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        form #cpf_invalid,
+        form #last_name_invalid,
+        form #name_invalid{
+            color: red;
+        }
+
+        form #cpf_valid,
+        form #last_name_valid,
+        form #name_valid{
+            color: green;
+        }
+
+        form button{
+            width: 100%;
+            height: 40px;
+            color: #FFF;
+            background-color: red;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #finish_cadaster{
+            background-color: green; 
+        }
+
+        .active{
+            display: block;
+        }
+
+        .inactive{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <section id="cadastro">
+        <form action="#">
+            <h1>Cadastro</h1>
+            <fieldset>
+                <legend>Nome</legend>
+                <input type="text" id="username">
+            </fieldset>
+
+            <fieldset>
+                <legend>E-mail</legend>
+                <input type="email" id="email">
+            </fieldset>
+
+            <fieldset>
+                <legend>Telefone</legend>
+                <input type="number" id="cellphone">
+            </fieldset>
+            <button id="send">Cadastrar-se!</button><br><br>
+            <button id="finish_cadaster">Concluir cadastramento</button>
+        </form>
+    </section>
+    
+
+    <section id="list">
+        <h2>Lista de dados!</h2>
+        <ul id="list-form">
+
+        </ul>
+    </section>
+    <script src="atv5.js"></script>
+</body>
+</html>

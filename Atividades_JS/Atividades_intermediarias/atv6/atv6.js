@@ -8,18 +8,17 @@ let arr = [];
 let getElementAndCalculate = () =>{
     let input_value = input_number.value;
     arr.push(input_value);
-    let aa = arr.map(() =>{
-        let calc = input_value * 3;
+    let config = arr.map((item) =>{
+        let calc = item * 3;
         return calc;
     })
-
-    console.log(aa)
-
+    result.innerHTML = config.join(',')
 }
 
 let cleanArray = () => {
-    result.innerHTML = ''
-}
+   let remove =  arr.splice(0, arr.length)
+   result.innerHTML = '';
+};
 
 btn_calc.addEventListener('click', getElementAndCalculate);
 btn_clean.addEventListener('click', cleanArray);

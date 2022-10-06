@@ -68,6 +68,10 @@ let search = () => {
 
 let clean = (element) => {
     input.value = ''
+    userResult.setAttribute('hidden', 'true');
+    tableBody.innerHTML = '';
+    tableBody.removeAttribute('hidden')
+    listaUsuarios.forEach(exibirLista)
 }
 
 

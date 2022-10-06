@@ -35,12 +35,13 @@ let tableBody = document.getElementById('table_body');
 let result = document.getElementById('total');
 
 let newArray = shoppingCart.map((value) =>{
-    return value.price
+    let values = value.price * value.qty;
+    return values
 })
 
 let priceSum = newArray.reduce((total,next) => {
     return total += next;   
-})
+},0)
 
 let exibirTable = (element) => {
     tableBody.innerHTML += `<tr>

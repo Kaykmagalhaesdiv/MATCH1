@@ -46,6 +46,8 @@ let search = () => {
         return valor.indexOf(inputValue.toLocaleLowerCase()) != -1;
     })
 
+    console.log(encontrar)
+
     let mapear = encontrar.map((valor)=>{
         return `<tr>
                 <td>${valor.id}</td>

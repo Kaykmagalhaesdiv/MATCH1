@@ -31,18 +31,19 @@ const menus = [
     }
 ];
 
-const resolveMenu = (menu,nome,index = 0) => {
-    
-}
+let funcaoRecursiva = (arrItens, nomeItem) => {
+    for (let i = 0; i < arrItens.length; i++) {
+      if (arrItens[i].nome === nomeItem) {
+        return nomeItem;
+      }else if (arrItens[i].itens.length > 0) {
+        let saida = funcaoRecursiva(arrItens[i].itens, nomeItem);
 
-const resolveMenusRecursivos = (menus,nome,index = 0) =>{
-    if(menus[index] == undefined){
-        return [];
+        if (saida !== undefined) {
+          return `${arrItens[i].nome} > ${saida}`;
+        }
+      }
     }
-    // resolveMenu(obj);
-    resolveMenusRecursivos(menus,nome,++index)
-    const obj = menus[index]
-    console.log(obj)
-}
-resolveMenusRecursivos(menus, 'Menu 1')
-
+  };
+  
+  console.log(funcaoRecursiva(menus, "Menu 2.1.1.1.2"));
+  console.log(funcaoRecursiva(menus, "Menu 3.1"));

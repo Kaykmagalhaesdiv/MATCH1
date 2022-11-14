@@ -92,4 +92,4 @@ const orderDelivery = new OrderDelivery(cliente)
 
 console.log(orderDelivery.calcularShipping());
 
-pedido.addProduct(pizza);
+pedido.addProduct(pizza)
